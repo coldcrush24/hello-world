@@ -1512,5 +1512,5 @@ for character in message.upper():
     count.setdefault(character, 0)
     count[character] = count[character] + 1
 
-structureText.pformat(count)
+structureText.pprint(count) #couldn't get the pformat to work.  kept getting a function error
 #print(structureText)
